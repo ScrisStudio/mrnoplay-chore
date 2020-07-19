@@ -3,11 +3,36 @@
   We display ads only when user is overtiming.
   For information of the app, go to https://mrnoplay.scris.top/ 
 -->
-<script type="text/javascript" src="//uprimp.com/bnr.php?section=MrNoplayOverpage&pub=531136&format=468x60&ga=g">
-</script>
-<noscript>
-  <a href="https://yllix.com/publishers/531136" target="_blank">
-    <img src="//ylx-aff.advertica-cdn.com/pub/468x60.png"
-      style="border:none;margin:0;padding:0;vertical-align:baseline;" alt="ylliX - Online Advertising Network" />
-  </a>
-</noscript>
+<div class="ads">
+  <script type="text/javascript" src="//uprimp.com/bnr.php?section=MrNoplayOverpage&pub=531136&format=468x60&ga=g">
+  </script>
+  <noscript>
+    <a href="https://yllix.com/publishers/531136" target="_blank">
+      <img src="//ylx-aff.advertica-cdn.com/pub/468x60.png"
+        style="border:none;margin:0;padding:0;vertical-align:baseline;" alt="ylliX - Online Advertising Network" />
+    </a>
+  </noscript>
+</div>
+<div class="noads">
+  Ads are loading ···
+  <br><small>We only display ads in over-time.</small>
+</div>
+<style>
+  .ads {
+    z-index: 1001;
+  }
+  .noads {
+    z-index: 999;
+    background-color: rgb(238, 238, 238);
+    width: 320px;
+    height: 48px;
+    font-family: '-apple-system', 'San Francisco', BlinkMacSystemFont, 'Helvetica Neue', Helvetica, "PingFang SC", "Alibaba PuHuiTi", "Microsoft YaHei", "Hiragino Sans GB", "WenQuanYi Micro Hei", sans-serif;
+    padding-top: 12px;
+    text-align: center;
+    font-weight: 600;
+    color: rgb(190, 184, 184);
+  }
+  small {
+    font-size: 12px;
+  }
+</style>
